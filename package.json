@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3"
+  },
+  "name": "restapi",
+  "version": "0.0.1",
+  "description": "CSW Rest API",
+  "main": "server.js",
+  "author": "Nattakit Boonyang <nattakit.boonyang@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "npx nodemon server.js",
+    "start": "node server.js"
+  }
+}
